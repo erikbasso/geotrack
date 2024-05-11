@@ -1,7 +1,7 @@
 import paho.mqtt.publish as publish
 import json
 
-message = {"latitude": '123.456', "longitude": '987.654'}
+message = {"device_id": 'b5b7e6405b904e43b14e29ae6c8d4d98',"latitude": '123.456', "longitude": '987.654'}
 
 payload = json.dumps(message)
 
